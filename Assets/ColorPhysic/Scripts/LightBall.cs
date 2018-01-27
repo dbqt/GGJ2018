@@ -32,7 +32,7 @@ public class LightBall : MonoBehaviour {
                
                 hasInstantiated = true;
                 go.GetComponent<Renderer>().material.color = Color.yellow;
-                go.GetComponent<Renderer>().material.set = Color.yellow;
+                go.GetComponent<Renderer>().material.SetColor("_EmissionColor", Color.yellow);
             }
             else
             {
