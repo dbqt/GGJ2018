@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class dropGM : MonoBehaviour {
@@ -38,37 +40,56 @@ public class dropGM : MonoBehaviour {
         state = StateType.MENU;
     }
 
-    void GoToMenu()
+    public void GoToMenu()
     {
+        state = StateType.MENU;
+        Debug.Log("Goto Tuto 1");
 
     }
 
-    void GoToTuto1()
+    public void GoToTuto1()
     {
+        state = StateType.TUTO1;
+        Debug.Log("Play Tuto 1");
+    }
+
+    public void GoToTuto2()
+    {
+        state = StateType.TUTO2;
+        Debug.Log("Play Tuto 2");
 
     }
 
-    void GoToTuto2()
+    public void GoToTuto3()
     {
+        state = StateType.TUTO3;
+        Debug.Log("Play Tuto 3");
 
     }
 
-    void GoToTuto3()
+    public void GoToLevel1()
     {
-
-    }
-    
-    void GoToLevel1()
-    {
+        state = StateType.LEVEL1;
+        Debug.Log("Play Level 1");
 
     }
 
-    void GoToLevel2()
+    public void GoToLevel2()
     {
+        state = StateType.LEVEL2;
 
+        Debug.Log("Play Level 2");
     }
 
-    void ResetAll()
+    public void QuitGame()
     {
+        Application.Quit();
+        Debug.Log("Quit game");
     }
+
+    private void ResetAll()
+    {
+        Debug.Log("Reset");
+    }
+
 }
