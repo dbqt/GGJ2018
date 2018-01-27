@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-    
+
+    public float defaultPlayerSpeed;
     public float playerSpeed;
+    public float decreasedSpeed;
     private Rigidbody rb;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        playerSpeed = defaultPlayerSpeed;
     }
 
     private void Update()
     {
-        move();
+        Move();
         //if (Input.GetKey(KeyCode.UpArrow))
         //{
         //    transform.Translate(new Vector3(0.0f, 0.0f, 1.0f) * speed * Time.deltaTime);
@@ -36,7 +39,7 @@ public class PlayerController : MonoBehaviour {
         //}
     }
 
-    private void move()
+    private void Move()
     {
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
