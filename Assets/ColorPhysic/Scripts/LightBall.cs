@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LightBall : MonoBehaviour {
-
+    public GameObject newLightBall;
+    private float distanceFromScreen = 20;
+    private static bool hasInstantiated = false;
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +15,29 @@ public class LightBall : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("collision");
+        if(collision.gameObject.tag == "LightBall")
+        {
+            Debug.Log("spawn new light");
+            ContactPoint contactPoint = collision.contacts[0];
+            Vector3 contactPosition = contactPoint.point;
+            Vector3 NewLightBallSpawnPoint = new Vector3(contactPosition.x, contactPosition.y, this.transform.position.z);
+            Destroy(gameObject);
+            if (!hasInstantiated)
+            {
+                GameObject go = (GameObject)Instantiate(newLightBall, NewLightBallSpawnPoint, Quaternion.identity);
+                hasInstantiated = true;
+            }
+            else
+            {
+                hasInstantiated = false;
+            }
+            
+
+        }
+        
+    }
 }
