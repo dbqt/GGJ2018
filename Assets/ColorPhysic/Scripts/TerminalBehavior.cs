@@ -6,10 +6,13 @@ public class TerminalBehavior : MonoBehaviour {
 
     [SerializeField]
     private bool colorLock; // flag prevents color change
+    public Color color;
             
     void Start()
     {
         colorLock = false;
+        this.GetComponent<Renderer>().material.color = color;
+        this.GetComponent<Renderer>().material.SetColor("_EmissionColor", color/2);
     }
 
 	void OnCollisionEnter(Collision collision)
@@ -19,6 +22,8 @@ public class TerminalBehavior : MonoBehaviour {
 
             if (collision.gameObject.GetComponent<Renderer>().material.color == this.GetComponent<Renderer>().material.color)
             {
+                Debug.Log("correct color");
+                this.GetComponent<Renderer>().material.SetColor("_EmissionColor", color * 2);
                 if (!colorLock)
                 {
                     colorLock = true;
