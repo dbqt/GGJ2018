@@ -18,9 +18,11 @@ public class dropGM : MonoBehaviour {
         LEVEL2
     };
 
+    public int terminalCounter = 0;
+
     [SerializeField]
     private StateType state;
-
+        
     void Awake()
     {
         if (instance == null)
@@ -80,7 +82,7 @@ public class dropGM : MonoBehaviour {
 
         Debug.Log("Play Level 2");
     }
-
+    
     public void QuitGame()
     {
         Application.Quit();
@@ -90,6 +92,7 @@ public class dropGM : MonoBehaviour {
     private void ResetAll()
     {
         Debug.Log("Reset");
+        terminalCounter = 0;
     }
 
 }
