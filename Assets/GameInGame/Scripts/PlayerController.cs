@@ -5,10 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     public float defaultPlayerSpeed;
-    private float playerSpeed;
-    public float decreaseSpeedDuration;
-    public float decreaseSpeedFactor;
-    private bool canBeSlowed;
+    public float playerSpeed;
+    public float decreasedSpeed;
     private Rigidbody rb;
 
     private void Start()
@@ -49,17 +47,5 @@ public class PlayerController : MonoBehaviour {
 
         this.transform.LookAt(this.transform.position + direction);
         this.transform.Translate(direction * playerSpeed, Space.World);
-    }
-
-    public IEnumerator SlowDownPlayer()
-    {
-        if (canBeSlowed)
-        {
-            canBeSlowed = false;
-            playerSpeed -= decreaseSpeedFactor;
-            yield return new WaitForSeconds(decreaseSpeedDuration);
-            playerSpeed += decreaseSpeedFactor;
-            canBeSlowed = true;
-        }
     }
 }
