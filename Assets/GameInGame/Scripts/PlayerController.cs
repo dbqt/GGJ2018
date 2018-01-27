@@ -6,20 +6,26 @@ public class PlayerController : MonoBehaviour {
 
     public float speed;
 
-    private Rigidbody rb;
-
-    private void Start()
+    private void Update()
     {
-        rb = GetComponent<Rigidbody>();
-    }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.Translate(new Vector3(0.0f, 0.0f, 1.0f) * speed * Time.deltaTime);
+        }
 
-    private void FixedUpdate()
-    {
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.Translate(new Vector3(0.0f, 0.0f, -1.0f) * speed * Time.deltaTime);
+        }
 
-        Vector3 movement = new Vector3(moveX, 0.0f, moveZ);
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.Translate(new Vector3(1.0f, 0.0f, 0.0f) * speed * Time.deltaTime);
+        }
 
-        rb.AddForce(movement * speed);
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.Translate(new Vector3(-1.0f, 0.0f, 0.0f) * speed * Time.deltaTime);
+        }
     }
 }
