@@ -29,7 +29,10 @@ public class LightBall : MonoBehaviour {
             if (!hasInstantiated)
             {
                 GameObject go = (GameObject)Instantiate(newLightBall, NewLightBallSpawnPoint, Quaternion.identity);
+               
                 hasInstantiated = true;
+                go.GetComponent<Renderer>().material.color = Color.yellow;
+                go.GetComponent<Renderer>().material.set = Color.yellow;
             }
             else
             {

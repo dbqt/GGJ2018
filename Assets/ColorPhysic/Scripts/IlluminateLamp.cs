@@ -19,7 +19,7 @@ public class IlluminateLamp : MonoBehaviour {
         if(other.tag == "LightBall")
         {
             Debug.Log("illuminate");
-            Destroy(other);
+            Destroy(other.gameObject);
         }
     }
 }
