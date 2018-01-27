@@ -16,7 +16,6 @@ public class TerminalBehavior : MonoBehaviour {
     {
         if (collision.gameObject.tag == "LightBall")
         {
-
             if (collision.gameObject.GetComponent<Renderer>().material.color == this.GetComponent<Renderer>().material.color)
             {
                 if (!colorLock)
