@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseDrag : MonoBehaviour {
-    public float distanceFromScreen = 10;
+    private float distanceFromScreen = 20;
 
     private void OnMouseDrag()
     {

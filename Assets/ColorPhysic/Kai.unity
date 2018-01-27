@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 353619894}
   - component: {fileID: 353619893}
   - component: {fileID: 353619892}
+  - component: {fileID: 353619896}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -271,13 +272,24 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 353619891}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.21, y: 4.52, z: -0.08984625}
+  m_LocalRotation: {x: 0, y: 0, z: 0.2588191, w: 0.9659258}
+  m_LocalPosition: {x: 9.93, y: 4.52, z: -0.08984625}
   m_LocalScale: {x: 5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
+--- !u!114 &353619896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 353619891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e1f9edd83cfe147b0896208026aa8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &847506143
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +320,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05e1f9edd83cfe147b0896208026aa8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFromScreen: 10
 --- !u!23 &847506145
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -562,7 +573,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1581268777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.99, y: -8.04, z: -0.08984618}
+  m_LocalPosition: {x: 6.23, y: -8.04, z: -0.08984618}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
