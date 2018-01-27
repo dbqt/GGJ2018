@@ -9,6 +9,7 @@ public class GameTransition : MonoBehaviour {
 
     private AsyncOperation currentOperation = null;
     private bool isLoading;
+    private bool isZOoming;
 
 	void Awake ()
     {
@@ -41,5 +42,9 @@ public class GameTransition : MonoBehaviour {
             this.isLoading = false;
             this.currentOperation = null;
         }
+    }
+
+    public void ZoomToCenter() {
+        //Camera.main;
     }
 }
