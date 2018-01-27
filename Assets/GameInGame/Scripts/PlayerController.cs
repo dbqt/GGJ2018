@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-    
+
+    public float defaultPlayerSpeed;
     public float playerSpeed;
+    public float decreasedSpeed;
+
+    private void Start()
+    {
+        playerSpeed = defaultPlayerSpeed;
+    }
 
     private void Update()
     {
-        move();
+        Move();
     }
 
-    private void move()
+    private void Move()
     {
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
