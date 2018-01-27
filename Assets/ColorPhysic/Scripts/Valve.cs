@@ -26,10 +26,19 @@ public class Valve : MonoBehaviour {
         this.GetComponent<Renderer>().material.SetColor("_EmissionColor", valveColor);
         if (Time.time > lastBallSpawn + cooldownTime)
         {
+  
             GameObject go = (GameObject)Instantiate(LightBall, LightBallSpawnPoint.transform.position, LightBallSpawnPoint.transform.rotation);
+            go.GetComponent<Renderer>().enabled = false;
             lastBallSpawn = Time.time;
-            
+            StartCoroutine(delayBeforeBallSpawn(go));
         }
+
+    }
+
+    IEnumerator delayBeforeBallSpawn(GameObject go)
+    {
+        yield return new WaitForSeconds(0.1f);
+        go.GetComponent<Renderer>().enabled = true;
 
     }
 
