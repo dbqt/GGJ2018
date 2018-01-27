@@ -1,18 +1,10 @@
-﻿//using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
     
     public float playerSpeed;
-    private Rigidbody rb;
-    private SpriteRenderer sr;
-
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
 
     private void Update()
     {
