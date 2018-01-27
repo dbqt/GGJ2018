@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class TerminalBehavior : MonoBehaviour {
 
-    private bool contactFlag; // prevents second contact
+    [SerializeField]
+    private bool colorLock; // flag prevents color change
             
     void Start()
     {
-        contactFlag = false;
+        colorLock = false;
     }
 
 	void OnCollisionEnter(Collision collision)
@@ -18,14 +19,12 @@ public class TerminalBehavior : MonoBehaviour {
 
             if (collision.gameObject.GetComponent<Renderer>().material.color == this.GetComponent<Renderer>().material.color)
             {
-                if (!contactFlag)
+                if (!colorLock)
                 {
-                    contactFlag = false;
-                    //inc. in main
+                    colorLock = true;
+                    dropGM.instance.terminalCounter++;
+                    //STAYS THE same color once correct ball hits
                 }
-            }
-            else
-            {
             }
         }
     }
