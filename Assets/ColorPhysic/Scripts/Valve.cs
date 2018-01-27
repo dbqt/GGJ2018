@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Valve : MonoBehaviour {
     GameObject LightBallSpawnPoint;
-    GameObject
+    GameObject LightBall;
 
 	// Use this for initialization
 	void Start () {
