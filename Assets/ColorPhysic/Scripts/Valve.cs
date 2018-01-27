@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Valve : MonoBehaviour {
-    GameObject LightBallSpawnPoint;
-    GameObject LightBall;
+    public GameObject LightBallSpawnPoint;
+    public GameObject LightBall;
 
 	// Use this for initialization
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    private void OnMouseUp()
+    {
+        GameObject go = (GameObject)Instantiate(LightBall, LightBallSpawnPoint.transform.position, LightBallSpawnPoint.transform.rotation);
+
+    }
 }
