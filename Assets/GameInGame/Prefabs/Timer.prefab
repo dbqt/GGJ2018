@@ -54,3 +54,5 @@ MonoBehaviour:
   timeLeft: 30
   countdownText: {fileID: 0}
   criticalTimeTreshold: 10
+  warningClip: {fileID: 8300000, guid: 8737178995433034f9191e73be64e636, type: 3}
+  bellRingClip: {fileID: 8300000, guid: 2139679f63472d547a61fdc1f5b7027d, type: 3}
