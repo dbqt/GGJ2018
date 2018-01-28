@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Disk : MonoBehaviour {
 
-    private int hp;
+    public int hp;
     public RawImage[] diskHp;
     public RawImage damageEffect;
     private AudioSource cdCrackAudio;
@@ -15,6 +15,7 @@ public class Disk : MonoBehaviour {
     {
         hp = 3;
         cdCrackAudio = (gameObject.AddComponent<AudioSource>() as AudioSource);
+        cdCrackAudio.volume = 0.5f;
         cdCrackAudio.clip = cdCrackClip;
     }
 

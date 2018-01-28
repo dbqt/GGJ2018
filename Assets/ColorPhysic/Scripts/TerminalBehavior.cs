@@ -20,6 +20,8 @@ public class TerminalBehavior : MonoBehaviour {
     {
         if (collision.gameObject.tag == "LightBall")
         {
+            Destroy(collision.gameObject);
+
             Debug.Log("collision terminal");
             Debug.Log("terminal color: " + this.color);
             Debug.Log("terminal material color: " + this.GetComponent<Renderer>().material.color);
