@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
 public class FadeTransition : MonoBehaviour {
 
     public Image fadeImage;
-    public float fadeSpeed;
+    public Animator anim;
 
     public static FadeTransition instance { get; set; }
     
@@ -23,21 +24,25 @@ public class FadeTransition : MonoBehaviour {
         }
 	}
 
-    void Start()
+
+    public void FadeInOnly()
     {
-        fadeSpeed = 0.5f;
+
     }
 	
-    public void DoTransition()
+    public void FadeToScene(int sceneIndex)
     {
-        StartCoroutine(FadeInFadeOut());
+        Debug.Log("Start Fading");
+        StartCoroutine(FadeIn(sceneIndex));
     }
-
-	private IEnumerator FadeInFadeOut()
+    
+	private IEnumerator FadeIn(int sceneIndex)
     {
-
+        anim.SetBool("Fade", true);
+        yield return new WaitUntil(() => fadeImage.color.a == 1);
+        SceneManager.LoadScene(1);
+       
     }
-
     private void StopTransition()
     {
         StopAllCoroutines();
