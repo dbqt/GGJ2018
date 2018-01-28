@@ -84,7 +84,7 @@ public class dropGM : MonoBehaviour {
                 if (terminalCounter == 1)
                 {
                     terminalCounter = 0;
-                //    GoToEndDropGame();
+                    //GoToEndDropGame();
                 }
                 break;
 
@@ -150,6 +150,7 @@ public class dropGM : MonoBehaviour {
         /********* POUR DAVID
          * 2e JEU
          * **************/
+         GameManager.Instance.GoToGame();
     }
 
     public void QuitGame()

@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour {
 	public void GoToMenu()
 	{
 		//SceneManager.LoadLevel(Menu);
+		dropGM.instance.GoToMenu();
 		GameTransition.Instance.LoadLevel(Menu); //Menu.unity in ColorPhysic
 	}
 

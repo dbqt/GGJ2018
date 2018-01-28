@@ -44,6 +44,7 @@ public class GameTransition : MonoBehaviour {
     // Load the level with transition.
     public void LoadLevel(string name) {
         PrepareLoadLevel(name);
+        ActivateLoadLevel();
         //ZoomToCenter(true);
     }
 
