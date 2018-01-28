@@ -11,7 +11,6 @@ public class Disk : MonoBehaviour {
     private void Start()
     {
         hp = 3;
-        Debug.Log(diskHp.Length);
     }
 
     public void LoseHp()
