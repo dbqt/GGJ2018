@@ -9,6 +9,7 @@ public class VictoryTrigger : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("The player has reached the desk!");
+            SceneManager.LoadScene("GoodEnding");
         }
     }
 }
