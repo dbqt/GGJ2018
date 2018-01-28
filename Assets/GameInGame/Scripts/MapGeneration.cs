@@ -30,11 +30,11 @@ public class MapGeneration : MonoBehaviour {
 	{
 		TableDeVerite = new bool[lengthX, lengthY];
 
-		for(int i = 0 ; i < Environment.Length ; i++)
-		{
-			TableDeVerite[Mathf.FloorToInt(Environment[i].transform.position.x), Mathf.FloorToInt(Environment[i].transform.position
-			.z)] = true;
-		}
+        foreach(GameObject ob in Environment)
+        {
+            TableDeVerite[Mathf.FloorToInt(ob.transform.position.x), Mathf.FloorToInt(ob.transform.position
+            .z)] = true;
+        }
 		//Debug
 		// for(int i = 0 ; i < lengthX ; i++)
 		// {
