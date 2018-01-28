@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - LightBall
+  - Undefined
+  - Wall
   layers:
   - Default
   - TransparentFX
