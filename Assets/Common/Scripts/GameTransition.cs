@@ -33,18 +33,18 @@ public class GameTransition : MonoBehaviour {
 	}
 
     void Update() {
-        if (this.isZooming) {
+        /*if (this.isZooming) {
             Camera.main.orthographicSize = Mathf.Lerp(Camera.main.orthographicSize, ZoomedSize, ZoomRate);
             if (Camera.main.orthographicSize <= ZoomedSize || Camera.main.orthographicSize - ZoomedSize < ZoomRate) {
                 ActivateLoadLevel();
             }
-        }
+        }*/
     }
 
     // Load the level with transition.
     public void LoadLevel(string name) {
         PrepareLoadLevel(name);
-        ZoomToCenter(true);
+        //ZoomToCenter(true);
     }
 
     // Preload level in background but doesn't transition to level yet.
@@ -59,12 +59,12 @@ public class GameTransition : MonoBehaviour {
     }
 
     // Allow to start the transition to the preloaded level if ready.
-    private void ActivateLoadLevel() {
+    public void ActivateLoadLevel() {
         if (this.currentOperation != null) {
             this.currentOperation.allowSceneActivation = true;
             this.isLoading = false;
             this.currentOperation = null;
-            ZoomToCenter(false);
+            //ZoomToCenter(false);
         }
     }
 
