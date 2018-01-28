@@ -5,7 +5,7 @@ using UnityEngine;
 public class EndingLoader : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void OnEnable () {
 		GameManager.Instance.GoToMenu();
         GameTransition.Instance.ActivateLoadLevel();
 	}
