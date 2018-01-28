@@ -31,7 +31,6 @@ public class TextSpeech : MonoBehaviour {
         if(currLine > endAtLine)
         {
             TextBox.SetActive(false);
-            Debug.Log("END OG TEXT");
             Timer.SetActive(true);
         }
 	}
