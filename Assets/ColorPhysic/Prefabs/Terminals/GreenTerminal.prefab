@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorLock: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 1, b: 0, a: 0}
   bing: {fileID: 82195431118641350}
 --- !u!136 &136557769960977972
 CapsuleCollider:
