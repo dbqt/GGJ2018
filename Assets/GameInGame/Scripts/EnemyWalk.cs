@@ -7,46 +7,104 @@ public class EnemyWalk : MonoBehaviour {
     public float enemyspeed;
     public bool isBlocked;
     public bool isLeaving;
-    private Vector3 direction;
-    private Rigidbody rb;
-
+    public Vector3 direction;
 
     private void Start()
     {
-        direction = new Vector3(0.0f, 0.0f, 1.0f);
+        int startDir = Random.Range(0, 3);
+        switch (startDir)
+        {
+            case 0:
+                // UP
+                direction = Vector3.forward;
+                break;
+            case 1:
+                // DOWN
+                this.transform.Rotate(Vector3.up * 180, Space.World);
+                direction = Vector3.back;
+                break;
+            case 2:
+                // RIGHT
+                this.transform.Rotate(Vector3.up * 90, Space.World);
+                direction = Vector3.right;
+                break;
+            case 3:
+                // LEFT
+                this.transform.Rotate(-Vector3.up * 90, Space.World);
+                direction = Vector3.left;
+                break;
+        }
+
         isBlocked = false;
         isLeaving = false;
-        rb = GetComponent<Rigidbody>();
     }
 
     private void Update()
     {
         this.transform.Translate(direction * enemyspeed * Time.deltaTime, Space.World);
-
-        if (isBlocked && !isLeaving)
+        
+        if (isBlocked)
         {
-            isLeaving = true;
 
-            int nextDir = Random.Range(0, 3);
+            int nextDir = Random.Range(0, 2);
             switch (nextDir)
             {
                 case 0:
-                    // UP
-                    direction = new Vector3(0.0f, 0.0f, 1.0f);
+                    // RIGHT
+                    this.transform.Rotate(Vector3.up * 90, Space.World);
+                    turnRight();
                     break;
                 case 1:
-                    // DOWN
-                    direction = new Vector3(0.0f, 0.0f, -1.0f);
+                    // LEFT
+                    this.transform.Rotate(-Vector3.up * 90, Space.World);
+                    turnLeft();
                     break;
                 case 2:
-                    // RIGHT
-                    direction = new Vector3(1.0f, 0.0f, 0.0f);
-                    break;
-                case 3:
-                    // LEFT
-                    direction = new Vector3(-1.0f, 0.0f, 0.0f);
+                    // OPPOSITE
+                    this.transform.Rotate(Vector3.up * 180, Space.World);
+                    direction = -direction;
                     break;
             }
+        }
+    }
+
+    private void turnRight()
+    {
+        if (direction == Vector3.forward)
+        {
+            direction = Vector3.right;
+        }
+        else if (direction == Vector3.right)
+        {
+            direction = Vector3.back;
+        }
+        else if (direction == Vector3.back)
+        {
+            direction = Vector3.left;
+        }
+        else
+        {
+            direction = Vector3.forward;
+        }
+    }
+
+    private void turnLeft()
+    {
+        if (direction == Vector3.forward)
+        {
+            direction = Vector3.left;
+        }
+        else if (direction == Vector3.left)
+        {
+            direction = Vector3.back;
+        }
+        else if (direction == Vector3.back)
+        {
+            direction = Vector3.right;
+        }
+        else
+        {
+            direction = Vector3.forward;
         }
     }
 }
