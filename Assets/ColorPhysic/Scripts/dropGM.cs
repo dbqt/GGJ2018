@@ -107,14 +107,13 @@ public class dropGM : MonoBehaviour {
         state = StateType.TUTO1;
         menuPanel.SetActive(false);
         SceneManager.LoadScene(1);
-        //FadeTransition.instance.FadeToScene(1);
         Debug.Log("Play Tuto 1");
     }
 
     public void GoToTuto2()
     {
         state = StateType.TUTO2;
-        SceneManager.LoadScene(2);
+        StartCoroutine(LoadSceneAfter(2));
         Debug.Log("Play Tuto 2");
 
     }
@@ -122,7 +121,7 @@ public class dropGM : MonoBehaviour {
     public void GoToTuto3()
     {
         state = StateType.TUTO3;
-        SceneManager.LoadScene(3);
+        StartCoroutine(LoadSceneAfter(3));
         Debug.Log("Play Tuto 3");
 
     }
@@ -130,7 +129,7 @@ public class dropGM : MonoBehaviour {
     public void GoToLevel1()
     {
         state = StateType.LEVEL1;
-        SceneManager.LoadScene(4);
+        StartCoroutine(LoadSceneAfter(4));
         Debug.Log("Play Level 1");
 
     }
@@ -138,7 +137,7 @@ public class dropGM : MonoBehaviour {
     public void GoToLevel2()
     {
         state = StateType.LEVEL2;
-        SceneManager.LoadScene(5);
+        StartCoroutine(LoadSceneAfter(5));
         Debug.Log("Play Level 2");
     }
     
@@ -165,6 +164,12 @@ public class dropGM : MonoBehaviour {
     {
         Debug.Log("Reset");
         terminalCounter = 0;
+    }
+
+    public IEnumerator LoadSceneAfter(int sceneIndex)
+    {
+        yield return new WaitForSeconds(1.0f);
+        SceneManager.LoadScene(sceneIndex);
     }
 
 }
