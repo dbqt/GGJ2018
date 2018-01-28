@@ -8,7 +8,8 @@ public class ObstacleSlow : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerController>().playerSpeed = collision.gameObject.GetComponent<PlayerController>().decreasedSpeed;
+            collision.gameObject.GetComponent<PlayerController>().playerSpeed =
+                collision.gameObject.GetComponent<PlayerController>().decreasedSpeed;
         }
     }
 
@@ -16,7 +17,8 @@ public class ObstacleSlow : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerController>().playerSpeed = collision.gameObject.GetComponent<PlayerController>().defaultPlayerSpeed;
+            collision.gameObject.GetComponent<PlayerController>().playerSpeed =
+                collision.gameObject.GetComponent<PlayerController>().defaultPlayerSpeed;
         }
     }
 }
