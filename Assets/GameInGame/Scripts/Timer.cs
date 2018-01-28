@@ -21,10 +21,11 @@ public class Timer : MonoBehaviour {
     private void Countdown()
     {
         timeLeft -= Time.deltaTime;
-        countdownText.text = System.Math.Round(timeLeft).ToString();
         if (timeLeft < 0)
         {
+            countdownText.text = "";
             // do something
         }
+        else countdownText.text = System.Math.Round(timeLeft).ToString();
     }
 }
