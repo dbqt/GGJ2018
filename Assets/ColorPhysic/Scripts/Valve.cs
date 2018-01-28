@@ -31,6 +31,7 @@ public class Valve : MonoBehaviour {
             GameObject.FindGameObjectWithTag("LightBallManager").GetComponent<LightBallManager>().instantiateLightBallOnClick(LightBallSpawnPoint.transform.position, valveColor);
             //go.GetComponent<Renderer>().enabled = false;
             lastBallSpawn = Time.time;
+            this.GetComponent<AudioSource>().Play();
             //StartCoroutine(delayBeforeBallSpawn(go));
         }
 

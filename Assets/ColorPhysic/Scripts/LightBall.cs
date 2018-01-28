@@ -40,8 +40,9 @@ public class LightBall : MonoBehaviour {
                 Vector3 NewLightBallSpawnPoint = new Vector3(contactPosition.x, contactPosition.y, this.transform.position.z);
                 // LightBall go = new LightBall();
                 Color newBallColor = new Color(r, g, b, 1.0f);
-
+                this.GetComponent<AudioSource>().Play();
                 GameObject.FindGameObjectWithTag("LightBallManager").GetComponent<LightBallManager>().InstantiateLightBallOnCollision(NewLightBallSpawnPoint, newBallColor);
+                
                 GameObject effect = (GameObject)Instantiate(collisionEffect, NewLightBallSpawnPoint, Quaternion.identity);
                 hasInstantiated = true;
 
