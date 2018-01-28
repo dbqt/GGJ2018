@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756edc18108d6b5469791eb198588aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyspeed: 1
+  enemyspeed: 1.5
   isBlocked: 0
   isLeaving: 0
   direction: {x: 0, y: 0, z: 0}
