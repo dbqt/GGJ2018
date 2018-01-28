@@ -7,6 +7,9 @@ public class LightBall : MonoBehaviour {
     public GameObject collisionEffect;
     private float distanceFromScreen = 20;
     private static bool hasInstantiated = false;
+
+    public AudioSource plup;
+    public AudioSource fuze;
 	// Use this for initialization
 	void Start () {
 
@@ -40,7 +43,7 @@ public class LightBall : MonoBehaviour {
                 Vector3 NewLightBallSpawnPoint = new Vector3(contactPosition.x, contactPosition.y, this.transform.position.z);
                 // LightBall go = new LightBall();
                 Color newBallColor = new Color(r, g, b, 1.0f);
-                this.GetComponent<AudioSource>().Play();
+                //fuze.Play();
                 GameObject.FindGameObjectWithTag("LightBallManager").GetComponent<LightBallManager>().InstantiateLightBallOnCollision(NewLightBallSpawnPoint, newBallColor);
                 
                 GameObject effect = (GameObject)Instantiate(collisionEffect, NewLightBallSpawnPoint, Quaternion.identity);

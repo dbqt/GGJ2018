@@ -72,7 +72,7 @@ public class dropGM : MonoBehaviour {
                 break;
 
             case StateType.LEVEL1:
-                if (terminalCounter == 3)
+                if (terminalCounter == 4)
                 {
                     terminalCounter = 0;
                     GoToLevel2();
@@ -83,6 +83,7 @@ public class dropGM : MonoBehaviour {
                 if (terminalCounter == 1)
                 {
                     terminalCounter = 0;
+                    GoToEndDropGame();
                 }
                 break;
 
@@ -141,6 +142,13 @@ public class dropGM : MonoBehaviour {
         Debug.Log("Play Level 2");
     }
     
+    public void GoToEndDropGame()
+    {
+        /********* POUR DAVID
+         * 2e JEU
+         * **************/
+    }
+
     public void QuitGame()
     {
         Application.Quit();

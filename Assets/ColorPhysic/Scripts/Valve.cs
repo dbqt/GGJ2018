@@ -10,6 +10,8 @@ public class Valve : MonoBehaviour {
     private float cooldownTime = 1f;
     private float lastBallSpawn = 0f;
 
+    public AudioSource plup; // ball sort valve
+
 	// Use this for initialization
 	void Start () {
         this.GetComponent<Renderer>().material.color = valveColor;
@@ -31,7 +33,7 @@ public class Valve : MonoBehaviour {
             GameObject.FindGameObjectWithTag("LightBallManager").GetComponent<LightBallManager>().instantiateLightBallOnClick(LightBallSpawnPoint.transform.position, valveColor);
             //go.GetComponent<Renderer>().enabled = false;
             lastBallSpawn = Time.time;
-            this.GetComponent<AudioSource>().Play();
+            plup.Play();
             //StartCoroutine(delayBeforeBallSpawn(go));
         }
 

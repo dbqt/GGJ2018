@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23294668879490148}
   - component: {fileID: 54927261928020974}
   - component: {fileID: 114942831237225834}
-  - component: {fileID: 82947381954001086}
+  - component: {fileID: 82868103338322800}
   m_Layer: 0
   m_Name: LightBall
   m_TagString: LightBall
@@ -101,7 +101,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
---- !u!82 &82947381954001086
+--- !u!82 &82868103338322800
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -110,7 +110,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 09cdf205ed360794385c1d74f3128d1d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 68a2dce9c573ba64590519c4fc487f00, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -194,6 +194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newLightBall: {fileID: 1688373944196404}
   collisionEffect: {fileID: 180950, guid: f2a398acbf213024aa23b14c390770bf, type: 2}
+  plup: {fileID: 0}
+  fuze: {fileID: 82868103338322800}
 --- !u!135 &135445541420083094
 SphereCollider:
   m_ObjectHideFlags: 1
