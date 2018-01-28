@@ -7,10 +7,13 @@ public class Timer : MonoBehaviour {
 
     public float timeLeft = 30.0f;
     public Text countdownText;
+    public float criticalTimeTreshold;
+    private bool isTimeCritical;
 
     private void Start()
     {
-        countdownText.text = System.Math.Round(timeLeft).ToString();
+        isTimeCritical = false;
+        countdownText.text = "Time Left: " + System.Math.Round(timeLeft).ToString();
     }
 
     void Update()
@@ -26,6 +29,26 @@ public class Timer : MonoBehaviour {
             countdownText.text = "";
             // do something
         }
-        else countdownText.text = System.Math.Round(timeLeft).ToString();
+        else if (timeLeft <= criticalTimeTreshold)
+        {
+            if (!isTimeCritical)
+            {
+                countdownText.color = Color.red;
+                StartCoroutine(CriticalTime());
+            }
+        }
+        else countdownText.text = "Time Left: " + System.Math.Round(timeLeft).ToString();
+    }
+
+    private IEnumerator CriticalTime()
+    {
+        isTimeCritical = true;
+        for (int i = 0; i < criticalTimeTreshold; i++)
+        {
+            countdownText.text = "";
+            yield return new WaitForSeconds(0.5f);
+            countdownText.text = "Time Left: " + System.Math.Round(timeLeft).ToString();
+            yield return new WaitForSeconds(0.5f);
+        }
     }
 }
