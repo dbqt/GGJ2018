@@ -20,6 +20,7 @@ public class dropGM : MonoBehaviour {
 
     public GameObject menuPanel;
     public int terminalCounter = 0;
+    public AudioSource backgroundMusic;
 
     [SerializeField]
     private StateType state;
@@ -97,6 +98,7 @@ public class dropGM : MonoBehaviour {
     public void GoToMenu()
     {
         state = StateType.MENU;
+        backgroundMusic.Play();
         menuPanel.SetActive(true);
         SceneManager.LoadScene(0);
         Debug.Log("Goto Tuto 1");
@@ -143,6 +145,7 @@ public class dropGM : MonoBehaviour {
     
     public void GoToEndDropGame()
     {
+        backgroundMusic.Stop();
         Debug.Log("dddddddd");
         /********* POUR DAVID
          * 2e JEU
