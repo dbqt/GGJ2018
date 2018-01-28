@@ -178,6 +178,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  cdCrackClip: {fileID: 8300000, guid: 53d69c54db965f642aad453ae049bb1d, type: 3}
 --- !u!114 &114428342054264644
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -7,16 +7,21 @@ public class Disk : MonoBehaviour {
 
     private int hp;
     public RawImage[] diskHp;
+    private AudioSource cdCrackAudio;
+    public AudioClip cdCrackClip;
 
     private void Start()
     {
         hp = 3;
+        cdCrackAudio = (gameObject.AddComponent<AudioSource>() as AudioSource);
+        cdCrackAudio.clip = cdCrackClip;
     }
 
     public void LoseHp()
     {
         if (!this.IsBroken())
         {
+            cdCrackAudio.Play();
             diskHp[hp].gameObject.SetActive(false);
             hp--;
             diskHp[hp].gameObject.SetActive(true);
