@@ -31,8 +31,6 @@ public class LightBall : MonoBehaviour {
             float g = (color1.g + color2.g) / (2f);
             float b = (color1.b + color2.b) / (2f);
 
-            
-
             Destroy(gameObject);
             if (!hasInstantiated)
             {
@@ -58,11 +56,7 @@ public class LightBall : MonoBehaviour {
             else
             {
                 hasInstantiated = false;
-            }
-            
-
-        }
-        
+            }           
+        }        
     }
-
 }
