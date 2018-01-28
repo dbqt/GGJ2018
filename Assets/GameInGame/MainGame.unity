@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 5549547}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 27677448}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 30246622}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -699,7 +699,7 @@ GameObject:
   - component: {fileID: 33973600}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 36386325}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 37045365}
   m_Layer: 0
   m_Name: LongDesk right
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -888,7 +888,7 @@ GameObject:
   - component: {fileID: 44667288}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -961,7 +961,7 @@ GameObject:
   - component: {fileID: 44819456}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 62819949}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1358,7 +1358,7 @@ GameObject:
   - component: {fileID: 83879824}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1475,7 +1475,7 @@ GameObject:
   - component: {fileID: 84223718}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1630,7 +1630,7 @@ GameObject:
   - component: {fileID: 88981249}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1880,7 +1880,7 @@ GameObject:
   - component: {fileID: 99320545}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2036,7 +2036,7 @@ GameObject:
   - component: {fileID: 105917316}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2066,7 +2066,7 @@ GameObject:
   - component: {fileID: 107798842}
   m_Layer: 0
   m_Name: LongDesk (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2098,7 +2098,7 @@ GameObject:
   - component: {fileID: 110832390}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2128,7 +2128,7 @@ GameObject:
   - component: {fileID: 123602991}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2161,7 +2161,7 @@ GameObject:
   - component: {fileID: 139308214}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2329,7 +2329,7 @@ GameObject:
   - component: {fileID: 145230057}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2413,7 +2413,7 @@ GameObject:
   - component: {fileID: 146401701}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2494,7 +2494,7 @@ GameObject:
   - component: {fileID: 148249636}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2527,7 +2527,7 @@ GameObject:
   - component: {fileID: 153316866}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2598,87 +2598,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153316864}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &156789005
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 156789009}
-  - component: {fileID: 156789008}
-  - component: {fileID: 156789007}
-  - component: {fileID: 156789006}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &156789006
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 156789005}
-  m_Enabled: 1
---- !u!124 &156789007
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 156789005}
-  m_Enabled: 1
---- !u!20 &156789008
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 156789005}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 2
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &156789009
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 156789005}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1611785667}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &157147958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,7 +2611,7 @@ GameObject:
   - component: {fileID: 157147960}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2774,7 +2693,7 @@ GameObject:
   - component: {fileID: 159664997}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2849,7 +2768,7 @@ GameObject:
   - component: {fileID: 160356813}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3182,7 +3101,7 @@ GameObject:
   - component: {fileID: 167091834}
   m_Layer: 0
   m_Name: LongDesk right (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3214,7 +3133,7 @@ GameObject:
   - component: {fileID: 174868859}
   m_Layer: 0
   m_Name: LongDesk right (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3246,7 +3165,7 @@ GameObject:
   - component: {fileID: 177119762}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3276,7 +3195,7 @@ GameObject:
   - component: {fileID: 184277682}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3309,7 +3228,7 @@ GameObject:
   - component: {fileID: 194447939}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3474,7 +3393,7 @@ GameObject:
   - component: {fileID: 204066470}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3588,7 +3507,7 @@ GameObject:
   - component: {fileID: 207307654}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3608,109 +3527,6 @@ Transform:
   m_Father: {fileID: 1321378910}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &208710619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 208710620}
-  - component: {fileID: 208710621}
-  - component: {fileID: 208710622}
-  - component: {fileID: 208710623}
-  m_Layer: 0
-  m_Name: Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &208710620
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208710619}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
-  m_Children: []
-  m_Father: {fileID: 1611785667}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!212 &208710621
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208710619}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1091855923
-  m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300014, guid: 28c9935439cb9f043a30c0e3f3c0a1fd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.32}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!95 &208710622
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208710619}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 93c72b633f2a9954aae2792194dc4513, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &208710623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208710619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdf5bd28bf4e375479633c12ae26cedc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &211882620
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,7 +3537,7 @@ GameObject:
   - component: {fileID: 211882621}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3751,7 +3567,7 @@ GameObject:
   - component: {fileID: 212533924}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3866,7 +3682,7 @@ GameObject:
   - component: {fileID: 216690150}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3938,7 +3754,7 @@ GameObject:
   - component: {fileID: 218901272}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3969,7 +3785,7 @@ GameObject:
   - component: {fileID: 219806600}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4041,7 +3857,7 @@ GameObject:
   - component: {fileID: 222515040}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4074,7 +3890,7 @@ GameObject:
   - component: {fileID: 227567645}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4156,7 +3972,7 @@ GameObject:
   - component: {fileID: 228042065}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4228,7 +4044,7 @@ GameObject:
   - component: {fileID: 230562441}
   m_Layer: 0
   m_Name: LongDeskLeft (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4344,7 +4160,7 @@ GameObject:
   - component: {fileID: 237440998}
   m_Layer: 0
   m_Name: LongDeskLeft (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4376,7 +4192,7 @@ GameObject:
   - component: {fileID: 245314080}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4407,7 +4223,7 @@ GameObject:
   - component: {fileID: 252409749}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4479,7 +4295,7 @@ GameObject:
   - component: {fileID: 254500951}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4509,7 +4325,7 @@ GameObject:
   - component: {fileID: 254607784}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4539,7 +4355,7 @@ GameObject:
   - component: {fileID: 256178411}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4570,7 +4386,7 @@ GameObject:
   - component: {fileID: 262793422}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4645,7 +4461,7 @@ GameObject:
   - component: {fileID: 264872480}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4726,7 +4542,7 @@ GameObject:
   - component: {fileID: 268753671}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4765,7 +4581,7 @@ GameObject:
   - component: {fileID: 277747321}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4933,7 +4749,7 @@ GameObject:
   - component: {fileID: 280749121}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5017,7 +4833,7 @@ GameObject:
   - component: {fileID: 283397350}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5101,7 +4917,7 @@ GameObject:
   - component: {fileID: 287364853}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5480,7 +5296,7 @@ GameObject:
   - component: {fileID: 307153336}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5552,7 +5368,7 @@ GameObject:
   - component: {fileID: 308081816}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5583,7 +5399,7 @@ GameObject:
   - component: {fileID: 310020327}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5655,7 +5471,7 @@ GameObject:
   - component: {fileID: 318713307}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5769,7 +5585,7 @@ GameObject:
   - component: {fileID: 332731698}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5799,7 +5615,7 @@ GameObject:
   - component: {fileID: 333122633}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5829,7 +5645,7 @@ GameObject:
   - component: {fileID: 348927057}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5860,7 +5676,7 @@ GameObject:
   - component: {fileID: 356202462}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5932,7 +5748,7 @@ GameObject:
   - component: {fileID: 357957999}
   m_Layer: 0
   m_Name: LongDesk (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5967,7 +5783,7 @@ GameObject:
   - component: {fileID: 359156284}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6048,7 +5864,7 @@ GameObject:
   - component: {fileID: 359227276}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6078,7 +5894,7 @@ GameObject:
   - component: {fileID: 362734328}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6192,7 +6008,7 @@ GameObject:
   - component: {fileID: 382702773}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6222,7 +6038,7 @@ GameObject:
   - component: {fileID: 403733742}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6252,7 +6068,7 @@ GameObject:
   - component: {fileID: 406000138}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6315,7 +6131,7 @@ GameObject:
   - component: {fileID: 411456167}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6390,7 +6206,7 @@ GameObject:
   - component: {fileID: 429401855}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6558,7 +6374,7 @@ GameObject:
   - component: {fileID: 447553080}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6639,7 +6455,7 @@ GameObject:
   - component: {fileID: 450933422}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6734,7 +6550,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453097735
 GameObject:
@@ -6746,7 +6562,7 @@ GameObject:
   - component: {fileID: 453097736}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6776,7 +6592,7 @@ GameObject:
   - component: {fileID: 482542620}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6807,7 +6623,7 @@ GameObject:
   - component: {fileID: 486900228}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7048,7 +6864,7 @@ GameObject:
   - component: {fileID: 498725652}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7205,7 +7021,7 @@ GameObject:
   - component: {fileID: 505318576}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7267,6 +7083,72 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &539616054
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555769814539576, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833699185599348, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 114670988539202430, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+        type: 2}
+      propertyPath: diskHp.Array.data[0]
+      value: 
+      objectReference: {fileID: 1976694292}
+    - target: {fileID: 114670988539202430, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+        type: 2}
+      propertyPath: diskHp.Array.data[1]
+      value: 
+      objectReference: {fileID: 710335830}
+    - target: {fileID: 114670988539202430, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+        type: 2}
+      propertyPath: diskHp.Array.data[2]
+      value: 
+      objectReference: {fileID: 2105564633}
+    - target: {fileID: 114670988539202430, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+        type: 2}
+      propertyPath: diskHp.Array.data[3]
+      value: 
+      objectReference: {fileID: 276533936}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &540280292
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,7 +7243,7 @@ GameObject:
   - component: {fileID: 540422081}
   m_Layer: 0
   m_Name: LongDesk (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7393,7 +7275,7 @@ GameObject:
   - component: {fileID: 544378249}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7424,7 +7306,7 @@ GameObject:
   - component: {fileID: 593354017}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7497,7 +7379,7 @@ GameObject:
   - component: {fileID: 600595645}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7572,7 +7454,7 @@ GameObject:
   - component: {fileID: 602718680}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7671,7 +7553,7 @@ Transform:
   - {fileID: 27694075}
   - {fileID: 85047387}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &608346974
 GameObject:
@@ -7683,7 +7565,7 @@ GameObject:
   - component: {fileID: 608346975}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7713,7 +7595,7 @@ GameObject:
   - component: {fileID: 618362800}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7743,7 +7625,7 @@ GameObject:
   - component: {fileID: 623473892}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7773,7 +7655,7 @@ GameObject:
   - component: {fileID: 624591390}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7803,7 +7685,7 @@ GameObject:
   - component: {fileID: 627340736}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7918,7 +7800,7 @@ GameObject:
   - component: {fileID: 634116227}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8077,7 +7959,7 @@ GameObject:
   - component: {fileID: 636984598}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8243,7 +8125,7 @@ GameObject:
   - component: {fileID: 643058780}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8315,7 +8197,7 @@ GameObject:
   - component: {fileID: 646319409}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8345,7 +8227,7 @@ GameObject:
   - component: {fileID: 650259541}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8384,7 +8266,7 @@ GameObject:
   - component: {fileID: 653284473}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8465,7 +8347,7 @@ GameObject:
   - component: {fileID: 653827734}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8579,7 +8461,7 @@ GameObject:
   - component: {fileID: 667625923}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8693,7 +8575,7 @@ GameObject:
   - component: {fileID: 673984826}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8723,7 +8605,7 @@ GameObject:
   - component: {fileID: 674193472}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8753,7 +8635,7 @@ GameObject:
   - component: {fileID: 678188486}
   m_Layer: 0
   m_Name: LongDesk right (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8785,7 +8667,7 @@ GameObject:
   - component: {fileID: 699420311}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8815,7 +8697,7 @@ GameObject:
   - component: {fileID: 704719326}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8935,7 +8817,7 @@ GameObject:
   - component: {fileID: 714574299}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8968,7 +8850,7 @@ GameObject:
   - component: {fileID: 715055694}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9050,7 +8932,7 @@ GameObject:
   - component: {fileID: 723866359}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9125,7 +9007,7 @@ GameObject:
   - component: {fileID: 724410378}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9209,7 +9091,7 @@ GameObject:
   - component: {fileID: 728300355}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9291,7 +9173,7 @@ GameObject:
   - component: {fileID: 739783088}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9390,7 +9272,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4876199083416548, guid: 2980c6c479838ce4da999297cc47962c, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 65185762247082214, guid: 2980c6c479838ce4da999297cc47962c,
         type: 2}
@@ -9599,7 +9481,7 @@ GameObject:
   - component: {fileID: 744721626}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10007,7 +9889,7 @@ GameObject:
   - component: {fileID: 761961513}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10205,7 +10087,7 @@ GameObject:
   - component: {fileID: 781345021}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10236,7 +10118,7 @@ GameObject:
   - component: {fileID: 795911577}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10311,7 +10193,7 @@ GameObject:
   - component: {fileID: 799059839}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10392,7 +10274,7 @@ GameObject:
   - component: {fileID: 808393461}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10425,7 +10307,7 @@ GameObject:
   - component: {fileID: 809977997}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10693,7 +10575,7 @@ GameObject:
   - component: {fileID: 820788203}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10774,7 +10656,7 @@ GameObject:
   - component: {fileID: 822205021}
   m_Layer: 0
   m_Name: LongDesk (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11032,7 +10914,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &866401279
 GameObject:
@@ -11129,7 +11011,7 @@ GameObject:
   - component: {fileID: 869868610}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11204,7 +11086,7 @@ GameObject:
   - component: {fileID: 877594165}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11372,7 +11254,7 @@ GameObject:
   - component: {fileID: 882589785}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11540,7 +11422,7 @@ GameObject:
   - component: {fileID: 892714154}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11622,7 +11504,7 @@ GameObject:
   - component: {fileID: 896574335}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11779,7 +11661,7 @@ GameObject:
   - component: {fileID: 905639968}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11938,7 +11820,7 @@ GameObject:
   - component: {fileID: 928377926}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12020,7 +11902,7 @@ GameObject:
   - component: {fileID: 940635314}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12179,7 +12061,7 @@ GameObject:
   - component: {fileID: 946087640}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12261,7 +12143,7 @@ GameObject:
   - component: {fileID: 957078930}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12417,7 +12299,7 @@ GameObject:
   - component: {fileID: 958710163}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12450,7 +12332,7 @@ GameObject:
   - component: {fileID: 960441479}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12563,7 +12445,7 @@ GameObject:
   - component: {fileID: 969263011}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12644,7 +12526,7 @@ GameObject:
   - component: {fileID: 971772721}
   m_Layer: 0
   m_Name: LongDesk right (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12676,7 +12558,7 @@ GameObject:
   - component: {fileID: 973120927}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12709,7 +12591,7 @@ GameObject:
   - component: {fileID: 974252915}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12791,7 +12673,7 @@ GameObject:
   - component: {fileID: 978403028}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12863,7 +12745,7 @@ GameObject:
   - component: {fileID: 993317873}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12893,7 +12775,7 @@ GameObject:
   - component: {fileID: 997032870}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12926,7 +12808,7 @@ GameObject:
   - component: {fileID: 1001810611}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13010,7 +12892,7 @@ GameObject:
   - component: {fileID: 1008156646}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13092,7 +12974,7 @@ GameObject:
   - component: {fileID: 1009302276}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13165,7 +13047,7 @@ GameObject:
   - component: {fileID: 1012197181}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13406,7 +13288,7 @@ GameObject:
   - component: {fileID: 1026846922}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13581,7 +13463,7 @@ Transform:
   - {fileID: 293923956}
   - {fileID: 1801221002}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1036462935
 GameObject:
@@ -13658,7 +13540,7 @@ GameObject:
   - component: {fileID: 1037868111}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13691,7 +13573,7 @@ GameObject:
   - component: {fileID: 1038146049}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13772,7 +13654,7 @@ GameObject:
   - component: {fileID: 1048727047}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13803,7 +13685,7 @@ GameObject:
   - component: {fileID: 1049773409}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13878,7 +13760,7 @@ GameObject:
   - component: {fileID: 1060682041}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13959,7 +13841,7 @@ GameObject:
   - component: {fileID: 1080450936}
   m_Layer: 0
   m_Name: LongDesk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13994,7 +13876,7 @@ GameObject:
   - component: {fileID: 1082531066}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14078,7 +13960,7 @@ GameObject:
   - component: {fileID: 1093985926}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14162,7 +14044,7 @@ GameObject:
   - component: {fileID: 1097724081}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14328,7 +14210,7 @@ GameObject:
   - component: {fileID: 1106007294}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14403,7 +14285,7 @@ GameObject:
   - component: {fileID: 1112105058}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14485,7 +14367,7 @@ GameObject:
   - component: {fileID: 1114388988}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14558,7 +14440,7 @@ GameObject:
   - component: {fileID: 1125122388}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14630,7 +14512,7 @@ GameObject:
   - component: {fileID: 1136064834}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14661,7 +14543,7 @@ GameObject:
   - component: {fileID: 1144565111}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14733,7 +14615,7 @@ GameObject:
   - component: {fileID: 1147217854}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14763,7 +14645,7 @@ GameObject:
   - component: {fileID: 1153860786}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14878,7 +14760,7 @@ GameObject:
   - component: {fileID: 1161234405}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14951,7 +14833,7 @@ GameObject:
   - component: {fileID: 1162503882}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15026,7 +14908,7 @@ GameObject:
   - component: {fileID: 1172375271}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15110,7 +14992,7 @@ GameObject:
   - component: {fileID: 1173349805}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15191,7 +15073,7 @@ GameObject:
   - component: {fileID: 1175090176}
   m_Layer: 0
   m_Name: LongDeskLeft
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15223,7 +15105,7 @@ GameObject:
   - component: {fileID: 1193988657}
   m_Layer: 0
   m_Name: LongDesk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15255,7 +15137,7 @@ GameObject:
   - component: {fileID: 1194519193}
   m_Layer: 0
   m_Name: LongDeskLeft (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15458,7 +15340,7 @@ GameObject:
   - component: {fileID: 1200479288}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15540,7 +15422,7 @@ GameObject:
   - component: {fileID: 1206364339}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15612,7 +15494,7 @@ GameObject:
   - component: {fileID: 1209962198}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15643,7 +15525,7 @@ GameObject:
   - component: {fileID: 1222710290}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15799,7 +15681,7 @@ GameObject:
   - component: {fileID: 1226150420}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15998,7 +15880,7 @@ GameObject:
   - component: {fileID: 1237757342}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16070,7 +15952,7 @@ GameObject:
   - component: {fileID: 1238724397}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16103,7 +15985,7 @@ GameObject:
   - component: {fileID: 1247651114}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16185,7 +16067,7 @@ GameObject:
   - component: {fileID: 1269064043}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16341,7 +16223,7 @@ GameObject:
   - component: {fileID: 1284509782}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16371,7 +16253,7 @@ GameObject:
   - component: {fileID: 1288337888}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16485,7 +16367,7 @@ GameObject:
   - component: {fileID: 1291444938}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16515,7 +16397,7 @@ GameObject:
   - component: {fileID: 1297064879}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16548,7 +16430,7 @@ GameObject:
   - component: {fileID: 1299527771}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16629,7 +16511,7 @@ GameObject:
   - component: {fileID: 1301892544}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16660,7 +16542,7 @@ GameObject:
   - component: {fileID: 1310316285}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16733,7 +16615,7 @@ GameObject:
   - component: {fileID: 1316394608}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16805,7 +16687,7 @@ GameObject:
   - component: {fileID: 1321378910}
   m_Layer: 0
   m_Name: LongDesk (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17005,7 +16887,7 @@ GameObject:
   - component: {fileID: 1326660936}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17036,7 +16918,7 @@ GameObject:
   - component: {fileID: 1332049988}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17277,7 +17159,7 @@ GameObject:
   - component: {fileID: 1334571751}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17350,7 +17232,7 @@ GameObject:
   - component: {fileID: 1350297052}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17507,7 +17389,7 @@ GameObject:
   - component: {fileID: 1357046699}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17664,7 +17546,7 @@ GameObject:
   - component: {fileID: 1365466281}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17736,7 +17618,7 @@ GameObject:
   - component: {fileID: 1367064642}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17769,7 +17651,7 @@ GameObject:
   - component: {fileID: 1376328876}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17840,6 +17722,84 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1376328874}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1378515674
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 10.304896
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -9.022345e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.2638979
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398161514599430, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848619405079394, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1461055428596032, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707880116969718, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436983372250112, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897114881045634, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748280352133226, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449975987774806, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039355430345166, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579852819582162, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c144c9daaeb298546813127df7cbe217, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1380623676
 GameObject:
   m_ObjectHideFlags: 0
@@ -17853,7 +17813,7 @@ GameObject:
   - component: {fileID: 1380623678}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17937,7 +17897,7 @@ GameObject:
   - component: {fileID: 1381536040}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18021,7 +17981,7 @@ GameObject:
   - component: {fileID: 1383205807}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18186,7 +18146,7 @@ GameObject:
   - component: {fileID: 1385239278}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18217,7 +18177,7 @@ GameObject:
   - component: {fileID: 1388788104}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18290,7 +18250,7 @@ GameObject:
   - component: {fileID: 1398896256}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18363,7 +18323,7 @@ GameObject:
   - component: {fileID: 1407352301}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18436,7 +18396,7 @@ GameObject:
   - component: {fileID: 1412114730}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18511,7 +18471,7 @@ GameObject:
   - component: {fileID: 1412779639}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18595,7 +18555,7 @@ GameObject:
   - component: {fileID: 1417301302}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18750,7 +18710,7 @@ GameObject:
   - component: {fileID: 1430510945}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18823,7 +18783,7 @@ GameObject:
   - component: {fileID: 1432942204}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18896,7 +18856,7 @@ GameObject:
   - component: {fileID: 1436349751}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18968,7 +18928,7 @@ GameObject:
   - component: {fileID: 1437490450}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19085,7 +19045,7 @@ GameObject:
   - component: {fileID: 1441693706}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19251,7 +19211,7 @@ GameObject:
   - component: {fileID: 1456158915}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19410,7 +19370,7 @@ GameObject:
   - component: {fileID: 1474236556}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19492,7 +19452,7 @@ GameObject:
   - component: {fileID: 1474869411}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19565,7 +19525,7 @@ GameObject:
   - component: {fileID: 1479728269}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19637,7 +19597,7 @@ GameObject:
   - component: {fileID: 1480575874}
   m_Layer: 0
   m_Name: LongDesk (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19756,7 +19716,7 @@ GameObject:
   - component: {fileID: 1484633373}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19837,7 +19797,7 @@ GameObject:
   - component: {fileID: 1490736835}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19954,7 +19914,7 @@ GameObject:
   - component: {fileID: 1500160253}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20060,7 +20020,7 @@ GameObject:
   - component: {fileID: 1556100069}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20225,7 +20185,7 @@ GameObject:
   - component: {fileID: 1562981569}
   m_Layer: 0
   m_Name: LongDesk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20258,7 +20218,7 @@ GameObject:
   - component: {fileID: 1566062990}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20331,7 +20291,7 @@ GameObject:
   - component: {fileID: 1568284921}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20404,7 +20364,7 @@ GameObject:
   - component: {fileID: 1568833291}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20477,7 +20437,7 @@ GameObject:
   - component: {fileID: 1570150194}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20552,7 +20512,7 @@ GameObject:
   - component: {fileID: 1571603531}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20634,7 +20594,7 @@ GameObject:
   - component: {fileID: 1575967437}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20706,7 +20666,7 @@ GameObject:
   - component: {fileID: 1577898664}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20736,7 +20696,7 @@ GameObject:
   - component: {fileID: 1579732617}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20769,7 +20729,7 @@ GameObject:
   - component: {fileID: 1585560203}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20850,7 +20810,7 @@ GameObject:
   - component: {fileID: 1586538333}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20883,7 +20843,7 @@ GameObject:
   - component: {fileID: 1589512159}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20965,7 +20925,7 @@ GameObject:
   - component: {fileID: 1590708883}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21040,7 +21000,7 @@ GameObject:
   - component: {fileID: 1596562645}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21111,160 +21071,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1596562643}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1611785663
+--- !u!1 &1611785663 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1611785667}
-  - component: {fileID: 1611785666}
-  - component: {fileID: 1611785665}
-  - component: {fileID: 1611785664}
-  - component: {fileID: 1611785669}
-  - component: {fileID: 1611785668}
-  - component: {fileID: 1611785670}
-  - component: {fileID: 1611785671}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1611785664
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 783cccdaa7d015d4082ae057677b197e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1611785665
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1611785666
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1611785667
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 208710620}
-  - {fileID: 156789009}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1611785668
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
---- !u!114 &1611785669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89e887058928d9d4280ec95d18272e28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultPlayerSpeed: 0.1
-  playerSpeed: 0
-  decreasedSpeed: 0.05
-  footstepsClip: {fileID: 0}
---- !u!114 &1611785670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0132e5e96eb84c4e83adf3966806b9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diskHp:
-  - {fileID: 1976694292}
-  - {fileID: 710335830}
-  - {fileID: 2105564633}
-  - {fileID: 276533936}
-  cdCrackClip: {fileID: 0}
---- !u!95 &1611785671
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1611785663}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_PrefabParentObject: {fileID: 1833699185599348, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 539616054}
 --- !u!1 &1627637061
 GameObject:
   m_ObjectHideFlags: 0
@@ -21278,7 +21089,7 @@ GameObject:
   - component: {fileID: 1627637063}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21362,7 +21173,7 @@ GameObject:
   - component: {fileID: 1631226403}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21443,7 +21254,7 @@ GameObject:
   - component: {fileID: 1641214594}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21473,7 +21284,7 @@ GameObject:
   - component: {fileID: 1645242012}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21506,7 +21317,7 @@ GameObject:
   - component: {fileID: 1645578152}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21671,7 +21482,7 @@ GameObject:
   - component: {fileID: 1649964244}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21702,7 +21513,7 @@ GameObject:
   - component: {fileID: 1652796726}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21945,7 +21756,7 @@ GameObject:
   - component: {fileID: 1666941913}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22029,7 +21840,7 @@ GameObject:
   - component: {fileID: 1669418995}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22363,7 +22174,7 @@ GameObject:
   - component: {fileID: 1682984777}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22438,7 +22249,7 @@ GameObject:
   - component: {fileID: 1687283938}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22522,7 +22333,7 @@ GameObject:
   - component: {fileID: 1689185113}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22606,7 +22417,7 @@ GameObject:
   - component: {fileID: 1689483623}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22688,7 +22499,7 @@ GameObject:
   - component: {fileID: 1692061721}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22763,7 +22574,7 @@ GameObject:
   - component: {fileID: 1702181360}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22845,7 +22656,7 @@ GameObject:
   - component: {fileID: 1703829487}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22918,7 +22729,7 @@ GameObject:
   - component: {fileID: 1705640662}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22991,7 +22802,7 @@ GameObject:
   - component: {fileID: 1718437855}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23063,7 +22874,7 @@ GameObject:
   - component: {fileID: 1721331807}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23096,7 +22907,7 @@ GameObject:
   - component: {fileID: 1725584599}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23345,7 +23156,7 @@ GameObject:
   - component: {fileID: 1729116794}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23376,7 +23187,7 @@ GameObject:
   - component: {fileID: 1731849925}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23449,7 +23260,7 @@ GameObject:
   - component: {fileID: 1734039244}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23521,7 +23332,7 @@ GameObject:
   - component: {fileID: 1740120040}
   m_Layer: 0
   m_Name: LongDesk (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23554,7 +23365,7 @@ GameObject:
   - component: {fileID: 1741866233}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23626,7 +23437,7 @@ GameObject:
   - component: {fileID: 1745891952}
   m_Layer: 0
   m_Name: LongDeskLeft (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23760,7 +23571,7 @@ Transform:
   - {fileID: 1890907825}
   - {fileID: 966597530}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1770116937
 GameObject:
@@ -23775,7 +23586,7 @@ GameObject:
   - component: {fileID: 1770116939}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23943,7 +23754,7 @@ GameObject:
   - component: {fileID: 1787699903}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24027,7 +23838,7 @@ GameObject:
   - component: {fileID: 1790157109}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24193,7 +24004,7 @@ GameObject:
   - component: {fileID: 1792820165}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24433,7 +24244,7 @@ GameObject:
   - component: {fileID: 1801221002}
   m_Layer: 0
   m_Name: Desks
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24487,7 +24298,7 @@ GameObject:
   - component: {fileID: 1816764565}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24568,7 +24379,7 @@ GameObject:
   - component: {fileID: 1817027128}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24601,7 +24412,7 @@ GameObject:
   - component: {fileID: 1827735921}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24766,7 +24577,7 @@ GameObject:
   - component: {fileID: 1837945781}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24799,7 +24610,7 @@ GameObject:
   - component: {fileID: 1838205447}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24880,7 +24691,7 @@ GameObject:
   - component: {fileID: 1851814753}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24911,7 +24722,7 @@ GameObject:
   - component: {fileID: 1854545561}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24984,7 +24795,7 @@ GameObject:
   - component: {fileID: 1857558606}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25140,7 +24951,7 @@ GameObject:
   - component: {fileID: 1863113603}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25257,7 +25068,7 @@ GameObject:
   - component: {fileID: 1879996189}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25339,7 +25150,7 @@ GameObject:
   - component: {fileID: 1881504817}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25496,7 +25307,7 @@ GameObject:
   - component: {fileID: 1886810799}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25576,7 +25387,7 @@ GameObject:
   - component: {fileID: 1891050867}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25751,7 +25562,7 @@ GameObject:
   - component: {fileID: 1905666597}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25784,7 +25595,7 @@ GameObject:
   - component: {fileID: 1914163259}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25865,7 +25676,7 @@ GameObject:
   - component: {fileID: 1935515539}
   m_Layer: 0
   m_Name: LongDeskLeft (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25897,7 +25708,7 @@ GameObject:
   - component: {fileID: 1952220659}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25927,7 +25738,7 @@ GameObject:
   - component: {fileID: 1953032272}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26042,7 +25853,7 @@ GameObject:
   - component: {fileID: 1963647243}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26117,7 +25928,7 @@ GameObject:
   - component: {fileID: 1966452977}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26288,7 +26099,7 @@ GameObject:
   - component: {fileID: 1982630823}
   m_Layer: 0
   m_Name: LongDesk (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26404,7 +26215,7 @@ GameObject:
   - component: {fileID: 1999030702}
   m_Layer: 0
   m_Name: Desk
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26518,7 +26329,7 @@ GameObject:
   - component: {fileID: 2011550749}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26548,7 +26359,7 @@ GameObject:
   - component: {fileID: 2011845258}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26581,7 +26392,7 @@ GameObject:
   - component: {fileID: 2017226013}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26820,7 +26631,7 @@ Transform:
   m_LocalScale: {x: 2.15, y: 1, z: 2.15}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2024527956
 GameObject:
@@ -26833,7 +26644,7 @@ GameObject:
   - component: {fileID: 2024527958}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26908,7 +26719,7 @@ GameObject:
   - component: {fileID: 2031150440}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26989,7 +26800,7 @@ GameObject:
   - component: {fileID: 2036243051}
   m_Layer: 0
   m_Name: Desk (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27022,7 +26833,7 @@ GameObject:
   - component: {fileID: 2036693316}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27104,7 +26915,7 @@ GameObject:
   - component: {fileID: 2036768322}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27344,7 +27155,7 @@ GameObject:
   - component: {fileID: 2069466543}
   m_Layer: 0
   m_Name: Desk (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27459,7 +27270,7 @@ GameObject:
   - component: {fileID: 2078708053}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27532,7 +27343,7 @@ GameObject:
   - component: {fileID: 2080447564}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27604,7 +27415,7 @@ GameObject:
   - component: {fileID: 2080541856}
   m_Layer: 0
   m_Name: Desk (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27635,7 +27446,7 @@ GameObject:
   - component: {fileID: 2085578446}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27708,7 +27519,7 @@ GameObject:
   - component: {fileID: 2086436563}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27783,7 +27594,7 @@ GameObject:
   - component: {fileID: 2096500084}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28209,7 +28020,7 @@ GameObject:
   - component: {fileID: 2122495979}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28317,7 +28128,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4788326306562876, guid: 10dde3cd783239d46af4d50f53d01a03, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114304595893520770, guid: 10dde3cd783239d46af4d50f53d01a03,
         type: 2}
@@ -28347,7 +28158,7 @@ GameObject:
   - component: {fileID: 2132968819}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28419,7 +28230,7 @@ GameObject:
   - component: {fileID: 2137899216}
   m_Layer: 0
   m_Name: LongDesk (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28452,7 +28263,7 @@ GameObject:
   - component: {fileID: 2142121947}
   m_Layer: 0
   m_Name: emptySprite
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
