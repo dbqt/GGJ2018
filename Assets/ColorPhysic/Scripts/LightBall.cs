@@ -30,9 +30,9 @@ public class LightBall : MonoBehaviour {
         {
             Color color1 = this.GetComponent<Renderer>().material.color;
             Color color2 = collision.gameObject.GetComponent<Renderer>().material.color;
-            float r = (color1.r + color2.r) / (2f);
-            float g = (color1.g + color2.g) / (2f);
-            float b = (color1.b + color2.b) / (2f);
+            float r = (color1.r + color2.r) / (2.0f);
+            float g = (color1.g + color2.g) / (2.0f);
+            float b = (color1.b + color2.b) / (2.0f);
 
             Destroy(gameObject);
             if (!hasInstantiated)
