@@ -6,12 +6,15 @@ public class MapGeneration : MonoBehaviour {
 
 	public int lengthX;
 	public int lengthY;
+
+	[Header("Fixed objects")]
 	public GameObject[] Environment;
 	public GameObject[] NpcRoster;
 	public GameObject[] ObjectRoster;
 
 	private bool[,] TableDeVerite;
 
+	[Header("Geenration")]
 	public int numberSpawnNpc;
 	public int countSpawnNpc;
 
@@ -49,10 +52,11 @@ public class MapGeneration : MonoBehaviour {
 			randomizeXY();
 			if(TableDeVerite[randX, randY] != true)
 			{
-				randPos = new Vector3(randX, 0, randY);
+				randPos = new Vector3(randX, 0.5f, randY);
 				int randNpc = Random.Range(0, NpcRoster.Length);
 				GameObject newNpc = Instantiate(NpcRoster[randNpc], randPos, Quaternion.identity) as GameObject;
 				countSpawnNpc++;
+				TableDeVerite[ Mathf.FloorToInt(randX),  Mathf.FloorToInt(randY)] = true;
 			}
 		}
 	}
@@ -61,10 +65,12 @@ public class MapGeneration : MonoBehaviour {
 	{
 		while(countSpawnObject < numberSpawnObject)
 		{
-			randPos = new Vector3(randX, 0, randY);
+			randomizeXY();
+			randPos = new Vector3(randX, 0.5f, randY);
 			int randObject = Random.Range(0, ObjectRoster.Length);
 			GameObject newObject = Instantiate(ObjectRoster[randObject], randPos, Quaternion.identity) as GameObject;
 			countSpawnObject++;
+			TableDeVerite[ Mathf.FloorToInt(randX),  Mathf.FloorToInt(randY)] = true;
 		}
 	}
 

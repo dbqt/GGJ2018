@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - LightBall
+  - Undefined
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -41,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Env
+    uniqueID: 2039687481
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2660985965
+    locked: 0
+  - name: Player
+    uniqueID: 1091855923
     locked: 0
