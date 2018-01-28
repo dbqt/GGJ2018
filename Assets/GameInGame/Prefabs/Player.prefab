@@ -253,6 +253,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  damageEffect: {fileID: 114739533683166060, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+    type: 2}
   cdCrackClip: {fileID: 8300000, guid: 53d69c54db965f642aad453ae049bb1d, type: 3}
 --- !u!114 &114428342054264644
 MonoBehaviour:
@@ -279,7 +281,7 @@ MonoBehaviour:
   defaultPlayerSpeed: 0.1
   playerSpeed: 0
   decreasedSpeed: 0.05
-  footstepsClip: {fileID: 8300000, guid: b1704135032a5cf4885495ea8422aa0f, type: 3}
+  footstepsClip: {fileID: 0}
 --- !u!124 &124459353803678370
 Behaviour:
   m_ObjectHideFlags: 1

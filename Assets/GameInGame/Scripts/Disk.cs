@@ -7,6 +7,7 @@ public class Disk : MonoBehaviour {
 
     private int hp;
     public RawImage[] diskHp;
+    public RawImage damageEffect;
     private AudioSource cdCrackAudio;
     public AudioClip cdCrackClip;
 
@@ -21,6 +22,7 @@ public class Disk : MonoBehaviour {
     {
         if (!this.IsBroken())
         {
+            StartCoroutine(DamageEffectFade());
             cdCrackAudio.Play();
             diskHp[hp].gameObject.SetActive(false);
             hp--;
@@ -43,5 +45,12 @@ public class Disk : MonoBehaviour {
         diskHp[hp].gameObject.SetActive(true);
         for (int i = 0; i < diskHp.Length - 2; i++)
             diskHp[i].gameObject.SetActive(false);
+    }
+
+    IEnumerator DamageEffectFade()
+    {
+        damageEffect.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        damageEffect.gameObject.SetActive(false);
     }
 }
