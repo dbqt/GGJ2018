@@ -164,7 +164,6 @@ public class dropGM : MonoBehaviour {
     {
         Debug.Log("Reset");
         terminalCounter = 0;
-        menuPanel.SetActive(true);
     }
 
 }
