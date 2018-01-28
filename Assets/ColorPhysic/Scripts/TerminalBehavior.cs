@@ -7,6 +7,7 @@ public class TerminalBehavior : MonoBehaviour {
     [SerializeField]
     private bool colorLock; // flag prevents color change
     public Color color;
+    public AudioSource bing;
             
     void Start()
     {
@@ -27,6 +28,7 @@ public class TerminalBehavior : MonoBehaviour {
             if (collision.gameObject.GetComponent<Renderer>().material.color.Equals(this.GetComponent<Renderer>().material.color))
             {
                 Debug.Log("correct color");
+                bing.Play();
                 this.GetComponent<Renderer>().material.SetColor("_EmissionColor", color * 2);
                 if (!colorLock)
                 {
