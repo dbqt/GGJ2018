@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LightBall : MonoBehaviour {
     public GameObject newLightBall;
+    public GameObject collisionEffect;
     private float distanceFromScreen = 20;
     private static bool hasInstantiated = false;
 	// Use this for initialization
@@ -21,7 +22,7 @@ public class LightBall : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("collision");
+        //Debug.Log("collision");
         if(collision.gameObject.tag == "LightBall")
         {
             Color color1 = this.GetComponent<Renderer>().material.color;
@@ -41,6 +42,7 @@ public class LightBall : MonoBehaviour {
                 Vector3 NewLightBallSpawnPoint = new Vector3(contactPosition.x, contactPosition.y, this.transform.position.z);
                // LightBall go = new LightBall();
                 GameObject go = (GameObject)Instantiate(newLightBall, NewLightBallSpawnPoint, Quaternion.identity);
+                GameObject effect = (GameObject)Instantiate(collisionEffect, NewLightBallSpawnPoint, Quaternion.identity);
                 hasInstantiated = true;
 
                 //Color newBallColor = (ballColor1 + ballColor1) / 2;
@@ -61,4 +63,5 @@ public class LightBall : MonoBehaviour {
         }
         
     }
+
 }

@@ -19,7 +19,12 @@ public class TerminalBehavior : MonoBehaviour {
     {
         if (collision.gameObject.tag == "LightBall")
         {
-            if (collision.gameObject.GetComponent<Renderer>().material.color == this.GetComponent<Renderer>().material.color)
+            Debug.Log("collision terminal");
+            Debug.Log("terminal color: " + this.color);
+            Debug.Log("terminal material color: " + this.GetComponent<Renderer>().material.color);
+            Debug.Log("light ball color: " + collision.gameObject.GetComponent<Renderer>().material.color);
+
+            if (collision.gameObject.GetComponent<Renderer>().material.color.Equals(this.GetComponent<Renderer>().material.color))
             {
                 Debug.Log("correct color");
                 this.GetComponent<Renderer>().material.SetColor("_EmissionColor", color * 2);
