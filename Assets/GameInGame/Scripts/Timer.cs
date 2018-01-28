@@ -18,7 +18,13 @@ public class Timer : MonoBehaviour {
 
     void Update()
     {
-        Countdown();
+        if (timeLeft > 0f) {
+            Countdown();
+        } else {
+            // Game over cut scene.
+        }
+
+
     }
 
     private void Countdown()
