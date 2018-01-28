@@ -7101,6 +7101,11 @@ Prefab:
       propertyPath: diskHp.Array.data[3]
       value: 
       objectReference: {fileID: 276533936}
+    - target: {fileID: 82927626623250378, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
   m_IsPrefabParent: 0
