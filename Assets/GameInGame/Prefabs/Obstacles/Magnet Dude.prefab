@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114020008389702992}
   - component: {fileID: 114886448176524390}
   - component: {fileID: 54131902484256360}
+  - component: {fileID: 114159986069285772}
   m_Layer: 0
   m_Name: Magnet Dude
   m_TagString: Untagged
@@ -59,6 +60,7 @@ GameObject:
   - component: {fileID: 4759401697331572}
   - component: {fileID: 212494007030442114}
   - component: {fileID: 95982727223403484}
+  - component: {fileID: 114496605683723976}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Untagged
@@ -213,6 +215,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3dd8be3e841b514badde6519604ea74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114159986069285772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078126516292370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55bc2d3c4375d84fb52216b71cce370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114496605683723976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447188137616752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55bc2d3c4375d84fb52216b71cce370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114528231808237350
