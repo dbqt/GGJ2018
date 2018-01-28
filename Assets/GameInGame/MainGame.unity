@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -7106,6 +7106,11 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114670988539202430, guid: f4b4bdf4700ceb046870874a7bf78d4f,
+        type: 2}
+      propertyPath: damageEffect
+      value: 
+      objectReference: {fileID: 1448273038}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4b4bdf4700ceb046870874a7bf78d4f, type: 2}
   m_IsPrefabParent: 0
@@ -10439,6 +10444,26 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224930631891454364, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -197.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 224270166750357572, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 507.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224270166750357572, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 224930631891454364, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114641172274617834, guid: d2f3ba5bb1b0f114693ab7ece8011e05, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d2f3ba5bb1b0f114693ab7ece8011e05, type: 2}
@@ -10863,10 +10888,15 @@ MonoBehaviour:
   ObjectRoster:
   - {fileID: 1486912824163288, guid: 3657e35f72d26c34f928a7c884833aa8, type: 2}
   - {fileID: 1149817385053580, guid: 76a13055e26000a49a482ac2e0c3430b, type: 2}
+  - {fileID: 1066695319341570, guid: 4ae8bf2687e3fac428fade26decb0324, type: 2}
+  - {fileID: 1181249680531274, guid: f8a7b802186bd2841bdee3b959f316b5, type: 2}
+  - {fileID: 1367072466035292, guid: 97c3eaa9512748e419376adc997104ad, type: 2}
+  - {fileID: 1712689816380160, guid: 5e8f42681b5d4b64cabdb56e2a514f41, type: 2}
+  - {fileID: 1994980994040924, guid: 6f753ebb701088141808192a9a487e4f, type: 2}
   JuryDesk: {fileID: 1848619405079394, guid: c144c9daaeb298546813127df7cbe217, type: 2}
   numberSpawnNpc: 5
   countSpawnNpc: 0
-  numberSpawnObject: 20
+  numberSpawnObject: 50
   countSpawnObject: 0
 --- !u!4 &851802954
 Transform:
@@ -19003,6 +19033,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1441693704}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1448273038 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114739533683166060, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 814461869}
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1448586899
 GameObject:
   m_ObjectHideFlags: 0
@@ -28091,6 +28127,11 @@ Prefab:
         type: 2}
       propertyPath: Ender
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114304595893520770, guid: 10dde3cd783239d46af4d50f53d01a03,
+        type: 2}
+      propertyPath: criticalTimeTreshold
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10dde3cd783239d46af4d50f53d01a03, type: 2}
