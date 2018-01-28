@@ -264,6 +264,7 @@ MonoBehaviour:
   LightBallSpawnPoint: {fileID: 1265795963969260}
   LightBall: {fileID: 1688373944196404, guid: c40f1380b1d84484eb600161f0eba087, type: 2}
   valveColor: {r: 1, g: 0, b: 0, a: 0}
+  plup: {fileID: 82335323424212124}
 --- !u!136 &136286776532814856
 CapsuleCollider:
   m_ObjectHideFlags: 1
