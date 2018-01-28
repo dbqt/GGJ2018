@@ -19,13 +19,12 @@ public class GameManager : MonoBehaviour {
 
 	public void GoToMenu()
 	{
-		SceneManager.LoadScene(0);
+		GameTransition.Instance.LoadLevel(Menu); //Menu.unity in ColorPhysic
 	}
 
 	public void GoToGame()
 	{
-		PrepareLoadLevel(Menu);
-		SceneManager.LoadScene(1);
+		GameTransition.Instance.LoadLevel(Main); //Main.unity in GameInGame
 	}
 }
 
