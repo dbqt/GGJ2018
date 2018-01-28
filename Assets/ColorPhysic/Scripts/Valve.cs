@@ -7,7 +7,7 @@ public class Valve : MonoBehaviour {
     public GameObject LightBall;
     public Color valveColor;
     private Color color;
-    private float cooldownTime = 3f;
+    private float cooldownTime = 1f;
     private float lastBallSpawn = 0f;
 
 	// Use this for initialization
