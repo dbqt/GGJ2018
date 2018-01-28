@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 
 	public static GameManager Instance = null;
+	public string Menu, Main;
 
 	private void Awake()
 	{
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour {
 
 	void Start()
 	{
-		GoToMenu();
+		//GoToMenu();
 	}
 
 	public void GoToMenu()

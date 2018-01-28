@@ -5,7 +5,7 @@ public class PlayButton : MonoBehaviour {
 
 	public void GoToGameButton ()
     {
-        GameManagementScript.Instance.GoToGame1();
+        GameManager.Instance.GoToGame();
     }
     
 }
