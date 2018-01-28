@@ -105,7 +105,8 @@ public class dropGM : MonoBehaviour {
     {
         state = StateType.TUTO1;
         menuPanel.SetActive(false);
-        FadeTransition.instance.FadeToScene(1);
+        SceneManager.LoadScene(1);
+        //FadeTransition.instance.FadeToScene(1);
         Debug.Log("Play Tuto 1");
     }
 
