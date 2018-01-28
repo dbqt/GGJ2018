@@ -155,6 +155,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3657e35f72d26c34f928a7c884833aa8, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &489930208
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136588494589542, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1ea2e643457e1b942bebe8b9be177c01, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &889840617
 Prefab:
   m_ObjectHideFlags: 0
@@ -565,7 +607,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1639392333}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1639392335
 Behaviour:
   m_ObjectHideFlags: 0
