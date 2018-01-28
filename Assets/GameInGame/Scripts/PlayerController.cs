@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour {
         playerSpeed = defaultPlayerSpeed;
         footstepsAudio = (gameObject.AddComponent<AudioSource>() as AudioSource);
         footstepsAudio.clip = footstepsClip;
+        footstepsAudio.volume = 0.2f;
 
         footstepsAudio.loop = true;
         footstepsAudio.Play();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
 
@@ -11,6 +12,7 @@ public class Timer : MonoBehaviour {
     private bool isTimeCritical;
     private AudioSource warningAudio, bellRingAudio;
     public AudioClip warningClip, bellRingClip;
+
 
     private void Start()
     {
@@ -28,6 +30,7 @@ public class Timer : MonoBehaviour {
             Countdown();
         } else {
             Debug.Log("Game Over");
+            SceneManager.LoadScene("BadEnding");
         }
     }
 

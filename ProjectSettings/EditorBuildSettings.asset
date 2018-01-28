@@ -23,3 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ColorPhysic/Scenes/Level2.unity
     guid: a020459fad9815745951e56138fdbc92
+  - enabled: 1
+    path: Assets/GameInGame/GoodEnding.unity
+    guid: 96e58888a9d1ef641a465e43194f54f8
+  - enabled: 1
+    path: Assets/GameInGame/MainGame.unity
+    guid: 21c3b420626fc1d4188b170dd695f446
+  - enabled: 1
+    path: Assets/GameInGame/BadEnding.unity
+    guid: 158742f6b5602154b9b8f10594bd5c89
