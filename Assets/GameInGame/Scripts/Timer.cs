@@ -9,11 +9,17 @@ public class Timer : MonoBehaviour {
     public Text countdownText;
     public float criticalTimeTreshold;
     private bool isTimeCritical;
+    private AudioSource warningAudio, bellRingAudio;
+    public AudioClip warningClip, bellRingClip;
 
     private void Start()
     {
         isTimeCritical = false;
         countdownText.text = "Time Left: " + System.Math.Round(timeLeft).ToString();
+        warningAudio = (gameObject.AddComponent<AudioSource>() as AudioSource);
+        warningAudio.clip = warningClip;
+        bellRingAudio = (gameObject.AddComponent<AudioSource>() as AudioSource);
+        bellRingAudio.clip = bellRingClip;
     }
 
     void Update()
@@ -23,15 +29,15 @@ public class Timer : MonoBehaviour {
         } else {
             Debug.Log("Game Over");
         }
-
-
     }
 
     private void Countdown()
     {
         timeLeft -= Time.deltaTime;
-        if (timeLeft < 0)
+        if (timeLeft <= 0.0f)
         {
+            bellRingAudio.Play();
+            warningAudio.Stop();
             countdownText.text = "";
             // do something
         }
@@ -39,14 +45,15 @@ public class Timer : MonoBehaviour {
         {
             if (!isTimeCritical)
             {
+                warningAudio.Play();
                 countdownText.color = Color.red;
-                StartCoroutine(CriticalTime());
+                StartCoroutine(CriticalTextFlash());
             }
         }
         else countdownText.text = "Time Left: " + System.Math.Round(timeLeft).ToString();
     }
 
-    private IEnumerator CriticalTime()
+    private IEnumerator CriticalTextFlash()
     {
         isTimeCritical = true;
         for (int i = 0; i < criticalTimeTreshold; i++)
