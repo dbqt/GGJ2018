@@ -7,10 +7,17 @@ public class PlayerController : MonoBehaviour {
     public float defaultPlayerSpeed;
     public float playerSpeed;
     public float decreasedSpeed;
+    private AudioSource footstepsAudio;
+    public AudioClip footstepsClip;
 
     private void Start()
     {
         playerSpeed = defaultPlayerSpeed;
+        footstepsAudio = (gameObject.AddComponent<AudioSource>() as AudioSource);
+        footstepsAudio.clip = footstepsClip;
+
+        footstepsAudio.loop = true;
+        footstepsAudio.Play();
     }
 
     private void Update()
@@ -35,5 +42,16 @@ public class PlayerController : MonoBehaviour {
         }
         
         this.transform.Translate(direction * playerSpeed, Space.World);
+
+        if (!(this.IsMoving()))
+            footstepsAudio.mute = false;
+        else footstepsAudio.mute = true;
+    }
+
+    private bool IsMoving()
+    {
+        if (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0)
+            return true;
+        else return false;
     }
 }
