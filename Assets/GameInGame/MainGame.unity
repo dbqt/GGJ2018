@@ -477,7 +477,7 @@ MonoBehaviour:
   Environment:
   - {fileID: 938098589}
   NpcRoster:
-  - {fileID: 1078126516292370, guid: ff11bd1ca9d1bb04388f4e94aa9fc959, type: 2}
+  - {fileID: 0}
   ObjectRoster:
   - {fileID: 1222133809447496, guid: aa7866d6debaa34489a98cdad2ea0ba2, type: 2}
   - {fileID: 1149817385053580, guid: 76a13055e26000a49a482ac2e0c3430b, type: 2}
