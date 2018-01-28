@@ -53,3 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeLeft: 30
   countdownText: {fileID: 0}
+  criticalTimeTreshold: 10
