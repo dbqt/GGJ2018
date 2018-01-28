@@ -11,3 +11,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameInGame/TestScene1.unity
     guid: 9dcb1ef225eabaf499314c5f28402316
+  - enabled: 1
+    path: Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene.unity
+    guid: ed3a9f41209f84f6db99e07013da9628
+  - enabled: 1
+    path: Assets/ColorPhysic/Kai.unity
+    guid: e103aef8d462ba14493e0a5fcad6b3b2
+  - enabled: 1
+    path: Assets/GameInGame/Main.unity
+    guid: fe9a8d86bc8e9d64c90916d74e43bcf7
+  - enabled: 1
+    path: Assets/GameInGame/MainGame.unity
+    guid: 21c3b420626fc1d4188b170dd695f446
+  - enabled: 1
+    path: Assets/ColorPhysic/Menu.unity
+    guid: 6558014718b6e5746a7a1ab31bd07e41
+  - enabled: 1
+    path: Assets/GameInGame/obstacleCollisionTest.unity
+    guid: afea76bf65bafe347926f398112aca96
+  - enabled: 1
+    path: Assets/GameInGame/TestScene2.unity
+    guid: 5504155ff67563a4c8e6a71f0e8851ed
+  - enabled: 1
+    path: Assets/GameInGame/TimerTest.unity
+    guid: 4699a2faa991fde4cba6f25400378fb1
+  - enabled: 1
+    path: Assets/ColorPhysic/Tutorial.unity
+    guid: a392b46df1009dd4693d28a1e1e4b3ec
