@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour {
         if (timeLeft > 0f) {
             Countdown();
         } else {
-            // Game over cut scene.
+            Debug.Log("Game Over");
         }
 
 
