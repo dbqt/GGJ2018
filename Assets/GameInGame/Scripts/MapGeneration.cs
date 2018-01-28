@@ -49,7 +49,7 @@ public class MapGeneration : MonoBehaviour {
 			randomizeXY();
 			if(TableDeVerite[randX, randY] != true)
 			{
-				randPos = Vector3(randX, 0, randY);
+				randPos = new Vector3(randX, 0, randY);
 				int randNpc = Random.Range(0, NpcRoster.Length);
 				GameObject newNpc = Instantiate(NpcRoster[randNpc], randPos, Quaternion.identity) as GameObject;
 				countSpawnNpc++;
@@ -61,7 +61,7 @@ public class MapGeneration : MonoBehaviour {
 	{
 		while(countSpawnObject < numberSpawnObject)
 		{
-			randPos = Vector3(randX, 0, randY);
+			randPos = new Vector3(randX, 0, randY);
 			int randObject = Random.Range(0, ObjectRoster.Length);
 			GameObject newObject = Instantiate(ObjectRoster[randObject], randPos, Quaternion.identity) as GameObject;
 			countSpawnObject++;

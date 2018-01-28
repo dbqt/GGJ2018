@@ -11,6 +11,7 @@ public class GenerateQuote : MonoBehaviour{
 
     void Start()
     {
+        source = GetComponent<AudioSource>();
         source.clip = ChooseQuote();
     }
 	
