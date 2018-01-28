@@ -11,6 +11,7 @@ public class MapGeneration : MonoBehaviour {
 	public GameObject[] Environment;
 	public GameObject[] NpcRoster;
 	public GameObject[] ObjectRoster;
+	public GameObject JuryDesk;
 
 	private bool[,] TableDeVerite;
 
@@ -23,6 +24,7 @@ public class MapGeneration : MonoBehaviour {
 
 	private int randX;
 	private int randY;
+	private int randXJury;
 	private Vector3 randPos;
 
 
@@ -30,11 +32,11 @@ public class MapGeneration : MonoBehaviour {
 	{
 		TableDeVerite = new bool[lengthX, lengthY];
 
-		for(int i = 0 ; i < Environment.Length ; i++)
-		{
-			TableDeVerite[Mathf.FloorToInt(Environment[i].transform.position.x), Mathf.FloorToInt(Environment[i].transform.position
-			.z)] = true;
-		}
+        foreach(GameObject ob in Environment)
+        {
+            TableDeVerite[Mathf.FloorToInt(ob.transform.position.x), Mathf.FloorToInt(ob.transform.position
+            .z)] = true;
+        }
 		//Debug
 		// for(int i = 0 ; i < lengthX ; i++)
 		// {
@@ -74,6 +76,13 @@ public class MapGeneration : MonoBehaviour {
 		}
 	}
 
+		private void SpawnJuryDesk()
+	{
+		randXJury = Random.Range(5, 15);
+		randPos = new Vector3(randXJury, 0.5f, 19);
+		GameObject newObject = Instantiate(JuryDesk, randPos, Quaternion.identity) as GameObject;		
+	}
+	
 	private void randomizeXY()
 	{
 			randX = Random.Range(0, lengthX-1);
@@ -88,6 +97,7 @@ public class MapGeneration : MonoBehaviour {
 		GenerateMap();
 		SpawnRandomObject();
 		SpawnRandomEnemy();
+		SpawnJuryDesk();
 	}
 	
 	// Update is called once per frame

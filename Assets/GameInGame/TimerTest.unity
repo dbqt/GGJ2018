@@ -335,6 +335,11 @@ Prefab:
       propertyPath: diskHp.Array.data[3]
       value: 
       objectReference: {fileID: 1005148843}
+    - target: {fileID: 114078938807048316, guid: 17a0ce42d63166a4b9ecd0eef8249c5c,
+        type: 2}
+      propertyPath: damageEffect
+      value: 
+      objectReference: {fileID: 1599142192}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 17a0ce42d63166a4b9ecd0eef8249c5c, type: 2}
   m_IsPrefabParent: 0
@@ -541,6 +546,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9efcb92f7bc673439be1fb66d20ef17, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1599142192 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114739533683166060, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 1737475623}
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1639392333
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +576,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1639392333}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1639392335
 Behaviour:
   m_ObjectHideFlags: 0
