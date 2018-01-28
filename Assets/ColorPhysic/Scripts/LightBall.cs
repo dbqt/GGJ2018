@@ -40,8 +40,10 @@ public class LightBall : MonoBehaviour {
                 ContactPoint contactPoint = collision.contacts[0];
                 Vector3 contactPosition = contactPoint.point;
                 Vector3 NewLightBallSpawnPoint = new Vector3(contactPosition.x, contactPosition.y, this.transform.position.z);
-               // LightBall go = new LightBall();
-                GameObject go = (GameObject)Instantiate(newLightBall, NewLightBallSpawnPoint, Quaternion.identity);
+                // LightBall go = new LightBall();
+                Color newBallColor = new Color(r, g, b, 1.0f);
+
+                GameObject.FindGameObjectWithTag("LightBallManager").GetComponent<LightBallManager>().InstantiateLightBallOnCollision(NewLightBallSpawnPoint, newBallColor);
                 GameObject effect = (GameObject)Instantiate(collisionEffect, NewLightBallSpawnPoint, Quaternion.identity);
                 hasInstantiated = true;
 
@@ -49,9 +51,8 @@ public class LightBall : MonoBehaviour {
                 //Debug.Log("ball1 color: " + ballColor1);
                 //Debug.Log("ball2 color: " + ballColor2);
                 //Debug.Log("new ball color: " + newBallColor);
-                Color newBallColor = new Color(r, g, b, 1.0f);
-                go.GetComponent<Renderer>().material.color = newBallColor;
-                go.GetComponent<Renderer>().material.SetColor("_EmissionColor", newBallColor * 3);
+               // go.GetComponent<Renderer>().material.color = newBallColor;
+                //go.GetComponent<Renderer>().material.SetColor("_EmissionColor", newBallColor * 3);
                 //Instantiate(go, NewLightBallSpawnPoint, Quaternion.identity);
             }
             else

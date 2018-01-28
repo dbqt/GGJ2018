@@ -26,11 +26,12 @@ public class Valve : MonoBehaviour {
         this.GetComponent<Renderer>().material.SetColor("_EmissionColor", valveColor);
         if (Time.time > lastBallSpawn + cooldownTime)
         {
-  
-            GameObject go = (GameObject)Instantiate(LightBall, LightBallSpawnPoint.transform.position, LightBallSpawnPoint.transform.rotation);
-            go.GetComponent<Renderer>().enabled = false;
+
+            //GameObject go = (GameObject)Instantiate(LightBall, LightBallSpawnPoint.transform.position, LightBallSpawnPoint.transform.rotation);
+            GameObject.FindGameObjectWithTag("LightBallManager").GetComponent<LightBallManager>().instantiateLightBallOnClick(LightBallSpawnPoint.transform.position, valveColor);
+            //go.GetComponent<Renderer>().enabled = false;
             lastBallSpawn = Time.time;
-            StartCoroutine(delayBeforeBallSpawn(go));
+            //StartCoroutine(delayBeforeBallSpawn(go));
         }
 
     }
@@ -44,7 +45,7 @@ public class Valve : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        other.gameObject.GetComponent<Renderer>().material.color = valveColor;
-        other.gameObject.GetComponent<Renderer>().material.SetColor("_EmissionColor", valveColor);
+        //other.gameObject.GetComponent<Renderer>().material.color = valveColor;
+        //other.gameObject.GetComponent<Renderer>().material.SetColor("_EmissionColor", valveColor);
     }
 }
