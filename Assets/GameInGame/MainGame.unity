@@ -4066,6 +4066,38 @@ Transform:
   m_Father: {fileID: 1801221002}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &232935203 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1473710220496134, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 814461869}
+--- !u!114 &232935205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 232935203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de54be3c59c9252489d9fe0df245b89f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBox: {fileID: 1968258697}
+  TheText: {fileID: 232935206}
+  textLines:
+  - 'MC: The game looks good!'
+  - How much time do I have left...?
+  - 'MC: Oh my god, 1 minute left!!!'
+  - ' Where are these judges?!'
+  - 'MC: I have to protect my floppy disk from magnets and running people!'
+  Timeline: {fileID: 1551320765}
+  Timer: {fileID: 1500515226}
+--- !u!114 &232935206 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114090952122067980, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 814461869}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &235721654
 GameObject:
   m_ObjectHideFlags: 0
@@ -10402,7 +10434,8 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114641172274617834, guid: d2f3ba5bb1b0f114693ab7ece8011e05, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d2f3ba5bb1b0f114693ab7ece8011e05, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &817053838
@@ -19890,7 +19923,7 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 114227200362144948, guid: e19d4cd5db5937e479bfa5436ebec29b, type: 2}
     value: {fileID: 1611785663}
-  - key: {fileID: 114549899056002288, guid: e19d4cd5db5937e479bfa5436ebec29b, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1500515226}
   m_ExposedReferences:
     m_References: []
@@ -25899,6 +25932,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1966452975}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1968258697 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1480384734372152, guid: d2f3ba5bb1b0f114693ab7ece8011e05,
+    type: 2}
+  m_PrefabInternal: {fileID: 814461869}
 --- !u!114 &1976694292 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114003181395851738, guid: d2f3ba5bb1b0f114693ab7ece8011e05,

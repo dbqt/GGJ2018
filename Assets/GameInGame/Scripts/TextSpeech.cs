@@ -9,6 +9,8 @@ public class TextSpeech : MonoBehaviour {
     public string[] textLines;
     public GameObject Timeline;
 
+    public GameObject Timer;
+
     private int currLine, endAtLine;
 
 	// Use this for initialization
@@ -30,7 +32,7 @@ public class TextSpeech : MonoBehaviour {
         {
             TextBox.SetActive(false);
             Debug.Log("END OG TEXT");
-            //Timeline.SetActive(true);
+            Timer.SetActive(true);
         }
 	}
 }
