@@ -32,7 +32,7 @@ public class BrighterTerminalBehavior : MonoBehaviour
                 if (!colorLock)
                 {
                     colorLock = true;
-                    dropGM.instance.terminalCounter++;
+                    dropGM.instance.incrementCount();
                     //STAYS THE same color once correct ball hits
                 }
             }
