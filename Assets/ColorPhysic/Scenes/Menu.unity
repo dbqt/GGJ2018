@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2647059, g: 0.5, b: 0.33448276, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.2965517, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -813,7 +813,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2113336718}
-        m_MethodName: GoToLevel1
+        m_MethodName: GoToTuto1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1063,6 +1063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d141f830ff48f4c90f222c68f14131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuPanel: {fileID: 322840165}
+  terminalCounter: 0
   state: 0
 --- !u!4 &2113336719
 Transform:
