@@ -22,7 +22,7 @@ public class Disk : MonoBehaviour {
     {
         if (!this.IsBroken())
         {
-            this.ScreenDamage();
+            StartCoroutine(DamageEffectFade());
             cdCrackAudio.Play();
             diskHp[hp].gameObject.SetActive(false);
             hp--;
@@ -49,12 +49,8 @@ public class Disk : MonoBehaviour {
 
     IEnumerator DamageEffectFade()
     {
-        float alpha = transform.renderer.material.color.a;
-        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
-        {
-            Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
-            transform.renderer.material.color = newColor;
-            yield return null;
-        }
+        damageEffect.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        damageEffect.gameObject.SetActive(false);
     }
 }

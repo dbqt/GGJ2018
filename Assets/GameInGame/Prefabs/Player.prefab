@@ -281,7 +281,7 @@ MonoBehaviour:
   defaultPlayerSpeed: 0.1
   playerSpeed: 0
   decreasedSpeed: 0.05
-  footstepsClip: {fileID: 8300000, guid: b1704135032a5cf4885495ea8422aa0f, type: 3}
+  footstepsClip: {fileID: 0}
 --- !u!124 &124459353803678370
 Behaviour:
   m_ObjectHideFlags: 1
