@@ -52,10 +52,11 @@ public class MapGeneration : MonoBehaviour {
 			randomizeXY();
 			if(TableDeVerite[randX, randY] != true)
 			{
-				randPos = new Vector3(randX, 0, randY);
+				randPos = new Vector3(randX, 0.5f, randY);
 				int randNpc = Random.Range(0, NpcRoster.Length);
 				GameObject newNpc = Instantiate(NpcRoster[randNpc], randPos, Quaternion.identity) as GameObject;
 				countSpawnNpc++;
+				TableDeVerite[ Mathf.FloorToInt(randX),  Mathf.FloorToInt(randY)] = true;
 			}
 		}
 	}
@@ -64,10 +65,12 @@ public class MapGeneration : MonoBehaviour {
 	{
 		while(countSpawnObject < numberSpawnObject)
 		{
-			randPos = new Vector3(randX, 0, randY);
+			randomizeXY();
+			randPos = new Vector3(randX, 0.5f, randY);
 			int randObject = Random.Range(0, ObjectRoster.Length);
 			GameObject newObject = Instantiate(ObjectRoster[randObject], randPos, Quaternion.identity) as GameObject;
 			countSpawnObject++;
+			TableDeVerite[ Mathf.FloorToInt(randX),  Mathf.FloorToInt(randY)] = true;
 		}
 	}
 
