@@ -2,8 +2,6 @@
 
 ### Global game Jam 2018
 
------
-
 > We transmit our game to the judges!
 
 
